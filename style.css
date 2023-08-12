@@ -1,0 +1,107 @@
+
+
+    body {
+        /* background-image: url('img2.jpeg'); */
+        font-family: Arial, sans-serif;
+        /* background-color: #13be2a; */
+        margin: 0;
+        padding: 0;
+        background-image: url('img2.jpeg');
+        background-size: cover;
+
+
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    h1 {
+        text-align:center;
+        color: #0c0c02f5;
+        background-color: aquamarine;
+
+        padding: 10px;
+    
+        border-radius: 5px;
+        margin-bottom: 20px;
+
+
+
+    }
+
+    form {
+        margin-top: 20px;
+        margin-right: 10;
+        background-image: url("img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+    input[type="color"] {
+        vertical-align: middle;
+    }
+
+    select {
+        height: 40px;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+        background-color: #0c7cf4;
+      
+    }
+
+    /* for Responsive adjustments */
+    @media screen and (max-width: 768px) {
+        .container {
+            max-width: 90%;
+        }
+    }
